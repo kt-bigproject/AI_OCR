@@ -243,6 +243,7 @@ def train(opt):
                         "Train loss": loss_avg.val(),
                         "Valid loss": valid_loss,
                         "Elapsed_time": elapsed_time,
+                        "accuracy": current_accuracy,
                     }
                 )
 
